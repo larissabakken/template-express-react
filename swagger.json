@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "API",
+    "description": "template for API documentation",
+    "contact": {
+      "name": "Larissa Ramos",
+      "email": "devlarissasr@gmail.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3030"
+    }
+  ],
+  "paths": {
+    "/api": {
+      "get": {
+        "summary": "Route default",
+        "description": "Route default",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        }
+      }
+    }
+  }
+}
